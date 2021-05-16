@@ -1,4 +1,5 @@
 # Sudoku
 
-Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9
-
+- A sudoku puzzle is generated at random and the user can solve the puzzle.
+- The UI is made with tkinter although using pygame would make things easier.
+- This implementation uses backtracking to solve the puzzle generated internally and compares the user input with the solution.
